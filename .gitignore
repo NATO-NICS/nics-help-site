@@ -1,0 +1,11 @@
+Thumbs.db
+Thumbs.db:encryptable
+
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*.psd

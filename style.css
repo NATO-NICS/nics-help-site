@@ -1,0 +1,567 @@
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962;
+}
+
+.offset:before {
+	display: block;
+	content: "";
+	height: 4.3rem;
+}
+
+.offset2:before {
+	display: block;
+	content: "";
+	height: 0rem;
+}
+
+/*---Nav---*/
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+}
+
+.navbar-brand {
+	height: 1.3rem;
+}
+
+.navbar-brand img {
+	height: 5rem;
+	position: absolute;
+	top: 0%;
+	left: 15%;
+	box-shadow: .1rem .1rem .8rem black;
+}
+
+.navbar-nav li {
+	padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	padding-top: .8rem;
+}
+
+.dropdown-item {
+	font-size: .8rem;
+}
+
+/*-----The color for the main nave hover-------*/
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #5e6de0;
+}
+
+.alert {
+	height: 4.2rem;
+	padding: 0, 0, 0, 0;
+	background-color: #2a347d;
+	margin: 0;
+	z-index: 0;
+	border-color: #2a347d;
+	border-radius: 0;
+}
+
+
+/*---Landing Page---*/
+
+.home-inner {
+	background-image: url(img/landing.jpg);
+}
+
+.home-inner-two {
+	background-image: url(img/fire.jpg);
+}
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 15%;
+	z-index: 1;
+	color: white;
+	text-transform: uppercase;
+}
+
+.caption h1 {
+	font-size: 3vw;
+	font-weight: 700;
+	text-shadow: .1rem .1rem .8rem black;
+	letter-spacing: .3rem;
+
+}
+
+.caption h3 {
+	font-size: 1.5vw;
+	font-weight: 100%;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 2rem;
+}
+
+.logo-hp {
+	width: 28%;
+	height: auto;
+}
+
+.news1 {
+	background-color: #2a347d;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	z-index: 1;
+}
+
+/*--News Ends--*/
+
+.about {
+	background-color: #2a347d;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	z-index: 1;
+}
+
+.IncidentRooms {
+	background-color: #2a347d;
+	color: white;
+	margin: 0px;
+	padding: 25px;
+	z-index: 1;
+}
+
+.Incident-Room {
+	text-align: left;
+}
+
+.about2 {
+	background-color: white;
+	padding-top: 10px;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.Incident-Room {
+	background-color: white;
+	padding-top: 10px;
+	text-align: left;
+}
+
+.WorkSpace {
+	background-color: white;
+	padding-top: 1px;
+	text-align: left;
+}
+
+.feature-text {
+	background-color: ;
+	padding-top: 1px;
+	text-align: left;
+}
+
+.feature-write-up {
+	font-size: 20px;
+}
+
+.Workspace {
+	background-color: #2a347d;
+	color: white;
+	margin: 0px;
+	padding: 20px;
+	z-index: 1;
+}
+
+.Topic {
+	background-color: #2a347d;
+	color: white;
+	margin: 0px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	z-index: 1;
+	width: 300px;
+}
+
+.row {
+	background-color: white;
+}
+
+.features-rows {
+	background-color: rgba(0,0,0,0.0);
+	min-width: 15rem;
+	justify-content: center;
+}
+
+.narrow {
+	width: 75rem;
+	padding: 0rem;
+	margin: 0rem;
+
+}
+
+.btn {
+	background-color: #2a347d;
+	color: white;
+}
+
+.headeralert {
+	color: white;
+}
+
+/*--Getting Started--*/
+
+.fixed {
+	background-image: url(img/card1.jpg);
+	z-index: -1;
+}
+
+.fixed-2 {
+	background-image: url(img/pexels-pixabay-51951.jpg);
+	z-index: -1;
+}
+
+.reg {
+	z-index: auto;
+}
+
+
+.dark {
+	background-color: rgba(0,0,0,0.65);
+	color: white;
+	padding: 6rem;
+}
+
+.displayed-C {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.modal-lg {
+	max-width: 500px;
+}
+
+.video1 {
+	padding: 10px;
+}
+
+/*--Getting Started Ends--*/
+
+.features-bg {
+	position: relative;
+  width: 100%;
+}
+
+.footer {
+	background-color: #2a347d;
+	color: white;
+	padding: 2rem 0 2rem;
+	margin-top: 1.5rem 0;
+}
+
+.footer a {
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	z-index: 1;
+}
+
+footer svg.svg-inline--fa {
+	font-size: 1.6rem;
+	margin: 1.2rem .5rem 0 0;
+}
+
+hr.socket {
+	width: 100%;
+	border-top: .1rem solid #666b71;
+	margin-top: .3rem;
+}
+
+.copy-write {
+	text-align: center;
+}
+
+.Desktop_workspace_jpg {
+	max-height: 100%;
+	max-width: 100%;
+	position: center;
+}
+
+/*--User Manual--*/
+
+/* Blue title tags on the left side of the page */
+.Topic-tags {
+	background-color: #2a347d;
+	color: white;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	z-index: 1;
+	width: 400px;
+	box-shadow: 2px 4px 2px 2px #000;
+}
+
+/* Blue title tags on the left side of the page ends */
+
+.login-jpg {
+	wdisplay: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+	border: solid;
+	border-width: thin;
+}
+
+.UI {
+	background-color: white;
+	padding-top: 10px;
+	text-align: left;
+}
+
+.UI-Numbered {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Naving-map {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.map-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* grid layout */
+#map-nav-id {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+#map-nav-id td, #map-nav-id th {
+  border: 1px solid #ddd;
+  padding: 8px;
+	text-align: center;
+}
+
+#map-nav-id tr:nth-child(even){background-color: #f2f2f2;}
+
+#map-nav-id tr:hover {background-color: #ddd;}
+
+#map-nav-id th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2a347d;
+  color: white;
+}
+
+/* grid layout2 */
+#map-nav-id2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+#map-nav-id2 td, #map-nav-id2 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+	text-align: left;
+}
+
+#map-nav-id2 tr:nth-child(even){background-color: #f2f2f2;}
+
+#map-nav-id2 tr:hover {background-color: #ddd;}
+
+#map-nav-id2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2a347d;
+  color: white;
+}
+
+.map-nav2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* grid layout2 ends */
+
+.Draw-Icon {
+	width: 2rem;
+	box-shadow: 2px 1px 1px 1px #000;
+}
+
+.Markers {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.Icon-1 {
+	width: 2rem;
+	box-shadow: 2px 1px 1px 1px #000;
+}
+
+.Icon {
+	width: 2rem;
+	box-shadow: 2px 1px 1px 1px #000;
+	border-radius: 5px;
+}
+
+.Icon-2 {
+	box-shadow: 2px 1px 1px 1px #000;
+	border-radius: 5px;
+}
+
+.notes {
+	border: 1px;
+	border-color: #2a347d;
+	background-color: #a8b3cf;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 1rem;
+	box-shadow: 1px 1px 3px 3px #000;
+}
+
+.Feature-Details-img {
+	width: 20%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.Free-Hand-img3 {
+	width: 55%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.about-img1 {
+	width: 40%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.Free-Hand-img1 {
+	width: 50%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.feature-page-imgs {
+	width: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 125px;
+}
+
+.feature-page-imgs-m {
+	width: 50%;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 200px;
+}
+
+.feature-page-imgs-b {
+	width: 50%;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 140px;
+}
+
+.supporters {
+	width: 100%;
+	height: 100%;
+}
+
+.App-img1 {
+	width: 40%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.Measure-img {
+	width: 20%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.img-25 {
+	width: 25%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.Measure-img2 {
+	width: 50%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.num-list {
+	padding-left: 25px;
+}
+
+.num-list-left {
+	padding-left: 680px;
+}
+
+.Weather-img {
+	width: 25%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.Sync-img {
+	width: 50%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.River-Rescue-jpg {
+	width: 1000px;
+	height: 500px;
+
+}
+
+.Main-text {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.gettingstateddiv {
+	min-width: 200px;
+}
+
+.image1 {
+	justify-content: center;
+	width: 100%;
+	max-height: 200px;
+	max-width: 200px;
+}
